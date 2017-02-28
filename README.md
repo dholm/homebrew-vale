@@ -2,7 +2,7 @@
 
 **Tap** 
 
-`brew tap jdkato/vale`
+`brew tap valelint/vale`
 
 **Install**
 
