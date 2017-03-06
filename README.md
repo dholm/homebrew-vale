@@ -8,4 +8,4 @@
 
 `brew install vale`
 
-Checkout the main [Vale repository](https://github.com/jdkato/vale) for more information.
+See the main [Vale repository](https://github.com/jdkato/vale) for more information.
