@@ -1,7 +1,7 @@
 class Vale < Formula
   desc "A customizable, syntax-aware linter for prose."
   homepage "https://github.com/ValeLint/vale"
-  version "v0.7.0"
+  version "0.7.0"
 
   if OS.mac?
     url "https://github.com/ValeLint/vale/releases/download/#{version}/vale_macOS_64-bit.tar.gz"
