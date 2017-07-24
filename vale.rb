@@ -1,14 +1,14 @@
 class Vale < Formula
   desc "A customizable, syntax-aware linter for prose."
   homepage "https://github.com/ValeLint/vale"
-  version "0.8.1"
+  version "0.9.0"
 
   if OS.mac?
     url "https://github.com/ValeLint/vale/releases/download/#{version}/vale_#{version}_macOS_64-bit.tar.gz"
-    sha256 "5c57467004e331ec251374ddd6647f3e8350b83649353f1935c18903fa4c7ea2"
+    sha256 "ed45c14e1f3963157efa6af38d857b63d5274296ee72fb8986c9d1ce8eea9a87"
   elsif OS.linux?
     url "https://github.com/ValeLint/vale/releases/download/#{version}/vale_#{version}_Linux_64-bit.tar.gz"
-    sha256 "190562cd85418b16e9829802aa9133fa721a1fa8af002e53653a0838a24c75d1"
+    sha256 "d012dc5654ff5f3a4bf6fcfa9a3bfa1457d07d419cbed14bef389d4b3ce1c8ba"
   end
 
   def install
